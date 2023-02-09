@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0d1b2a;
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+}
+.container {
+  width: 600px;
+}
+.container h1 {
+  font-size: 3rem;
+  color: #fff;
+  margin-bottom: 8px;
+}
+.container h3 {
+  font-size: 2rem;
+  color: #fff;
+}
+.relogio {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+.date {
+  text-align: center;
+  background-color: #415a77;
+  color: #fff;
+  flex: 1;
+  display: grid;
+  grid-template-rows: 100px 50px;
+  border-radius: 4px;
+  box-shadow: 0 0 4px #000;
+}
+.horas,
+.minutos,
+.segundos {
+  align-self: center;
+  font-size: 3rem;
+}
+
+.date-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #778da9;
+  border-radius: 0 0 4px 4px;
+}
